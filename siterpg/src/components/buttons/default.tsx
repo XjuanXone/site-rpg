@@ -7,8 +7,8 @@ type DefaultButtonProps = {
 
 export function DefaultButton({page, tittle}: DefaultButtonProps) {
     return (
-      <Link href={page} className="h-fit w-fit group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-yellow-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-        <p className="mb-3 text-2xl font-bold">
+      <Link href={page} className="h-fit w-fit group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-black hover:bg-yellow-300 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 bg-blue-400">
+        <p className=" text-2xl font-bold">
             {tittle+ ' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
             -&gt;
