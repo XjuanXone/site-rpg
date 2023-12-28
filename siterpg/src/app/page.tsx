@@ -3,6 +3,6 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main> ola </main>
+    <main className='font-extrabold'> estamos construindo, volte depois :) </main>
   )
 }
